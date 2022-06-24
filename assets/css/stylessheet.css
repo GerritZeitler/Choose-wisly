@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700&family=Pacifico&family=Shadows+Into+Light&display=swap');
+/* Fonts
+font-family: 'Cinzel', serif;
+font-family: 'Lato', sans-serif;
+font-family: 'Pacifico', cursive;
+font-family: 'Shadows Into Light', cursive; 
+*/
+
+html {
+  /* the image used */
+  background-image: url('../img/photo-1526374965328-7f61d4dc18c5.avif');
+
+  /* Full height */
+  height: 100%;
+
+  /* center and scale */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header h1 {
+  font-size: 50px;
+  text-align: center;
+  color: greenyellow;
+  font-family: 'Cinzel', serif;
+}
+
+header p {
+  font-size: 30px;
+  text-align: center;
+  color: greenyellow;
+  font-family: 'Cinzel', serif;
+}
+
+button {
+  padding: 15px 32px;
+}
+
+.Github {
+  margin: 0;
+  position: absolute;
+  top: 30%;
+  left: 40%;
+/*   -ms-transform: translateY(-50%);
+  transform: translateY(-50%); */
+}
+
+.Terminal {
+  margin: 0;
+  position: absolute;
+  top: 30%;
+  right: 40%;
+/*   -ms-transform: translateY(-50%);
+  transform: translateY(-50%); */
+}
+/* 
+div {
+  position: relative;
+  margin: 0 auto;
+}
+
+button {
+  font-family: 'Cinzel', serif;
+  cursor: pointer;
+  padding: 10px;
+  position: absolute;
+  margin: 0 auto;
+  left: 50%;
+}
+ */
